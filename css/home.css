@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    gap: 10rem;
+}
+
+.conteiner{
+    padding: 0rem 2.5rem;
+
+}
+
+.nav {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagens-config {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.imagem-notificacao {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.imagem-engrenagem {
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+.menu {
+    width: 8.5rem;
+}
+
+.imagem-perfil {
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+
+.imagem-menu {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.8rem;
+}
+
+.input-pesquisar {
+    width: 60rem;
+    height: 3rem;
+    background: url(/imagens/ipe-lupa.svg) no-repeat;
+    background-position: 58rem;
+    border-radius: 0.5rem;
+    border: 0;
+    background-color: rgba(243, 241, 246, 1);
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1;
+    padding: 0 1rem;
+    font-weight: 600;
+    opacity: 80.8%;
+}
+
+.input-pesquisar::placeholder {
+    font-size: 1rem;
+}
+
+.input-pesquisar:focus {
+    border: orange solid 1px;
+
+}
+
+.vendas {
+    width: 11vw;
+    height: 8vh;
+    background: rgba(243, 241, 246, 1);
+    padding: 2rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.63rem;
+    border-bottom: #F37800 1rem solid;
+
+}
+
+.opcoes-site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+
+}
+
+.vendas-gap {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.ultimas-vendas {
+    font-size: 25px;
+}
+
+.tamanha-categoria {
+    padding: 0.5rem 0rem;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.03rem;
+
+}
+
+.suas-categorias {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.categoria {
+
+    padding: 2rem -9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.63rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.ver-todos {
+    display: flex;
+    gap: 1rem;
+}
+
+.categorias {
+    height: 10rem;
+    width: 19rem;
+    background: rgba(243, 241, 246, 1);
+    padding: 1rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 0.63rem;
+    gap: 1.5rem;
+}
+
+.opcoes-site {
+    flex-wrap: wrap;
+    max-width: 95vw;
+}
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 0;
+    height: 8.6rem;
+}
+
+.letras-botao {
+    color: #FAFAFA;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.02344rem;
+    background: #F37800;
+    border-radius: 0.63rem;
+    border: 0 solid;
+    height: 4rem;
+    width: 39rem;
+}
+
+.imagem-iphone {
+    width: 14.5vw;
+    height: 14.5rem;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    background: rgba(243, 241, 246, 1);
+    width: 20rem;
+    height: 16rem;
+    border-radius: 0.63rem;
+    border: 0 solid;
+
+}
+
+.todas-imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 95vw;
+}
+
+.parte-roxa-imagens {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.016rem;
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    height: 6.813rem;
+    background: var(--cores-primria, #4400A5);
+    border-radius: 0 0 5px 5px;
+    padding: 1rem;
+
+}
+
+span {
+    color: var(--cores-secundria, #FF8429);
+}
+
+.posicao-imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lapis-branco {
+    height: 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 2.5rem;
+    width: 2rem;
+}
+
+.nome-produto {
+    width: 10rem;
+}
+
+.posicao-preco-notebook {
+    width: 12rem;
+}
+
+.notebook {
+    width: 10rem;
+}
+
+.posicao-lapis {
+    display: flex;
+    align-items: end;
+    width: 9rem;
+    height: 5rem;
+    justify-content: end;
+}
+
+.footer {
+    background: var(--cores-preto, #101010);
+    width: 95.8;
+    height: 11rem;
+    display: flex;
+    padding: 2rem 2.5rem;
+    gap: 2rem;
+}
+
+.Instucional {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+    
+}
+.imagem-ipe{
+    display: flex;
+    justify-content: end;
+    height: 12rem;
+    width: 60rem;
+  }
+.botao-novo-produto{
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 0;
+    height: 16.6rem;
+    padding: 4rem;
+}
+.todos-footer{
+    display: flex;
+    gap: 5rem;
+}
+.letra-fina{
+    opacity: 70%;
+    font-weight: 400;
+}
+.logo-ipe{
+    right: 0;
+    height: 12rem;
+    width: 12rem;
+}
+
+

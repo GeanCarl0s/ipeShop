@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.formulario {
+    max-width: 40rem;
+
+}
+
+body {
+    display: flex;
+    padding: 0rem 5rem;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    gap: 10rem;
+}
+
+.conta-login {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.cor-fazer-login {
+    color: rgba(16, 16, 16, 1);
+    opacity: 50%;
+    font-size: 1.5rem;
+}
+
+.cadastros {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+.posiçao-login {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.7rem 0 2rem 0;
+    width: 25rem;
+}
+
+.cor-login {
+    color: rgba(255, 132, 41, 1);
+    text-decoration: none;
+}
+
+.Nome-sobrenome {
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.espacamento-nome {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.informaçoes-cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+input {
+   
+    border-radius: 0.5rem;
+    border: 0;
+    height: 2.6rem;
+    width: 13rem;
+    background-color: rgba(243, 241, 246, 1);
+    padding: 10px;
+    opacity: 90%;
+    font-size: 1.3625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.02344rem;
+}
+
+.botao-e-mail {
+    width: 28rem;
+    height: 4rem;
+}
+
+.botao-senha {
+    width: 28rem;
+    height: 4rem;
+}
+
+.botao {
+    border-radius: 0.5rem;
+    border: 0;
+    height: 3.6rem;
+    width: 28.5rem;
+    background: linear-gradient(135deg, #4400A5 34.90%, #FF8429 100%, #FF8429 100%);
+    color: var(--cores-branco, #FAFAFA);
+}
+
+.imagem-mulher {
+    width: 50rem;
+    height: 50rem;
+
+}
+
+.imagem {
+    width: 58rem;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+button {
+
+    border: 0;
+    background: none;
+    width: 7.5rem;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    color: var(--cores-branco, #FAFAFA);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.cria-conta {
+    font-size: 3.3rem;
+}
